@@ -1,0 +1,208 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	
+	
+}
+body {
+	/* This is how I established the format of the entire page */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background-color:#4DA8DA;
+}
+
+h1 {
+  color: #7FDBFF;	
+  border: 2px solid #001f3f;
+  border-radius: 8px;
+  background-color: #001f3f;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  text-align: center;
+}
+
+h2 {
+	margin: 50px 0;
+	text-align: center;
+}
+
+.instruction  {
+	
+	margin: 150px;
+	text-align: center;
+	
+}
+
+.table-score {
+	color: #001f3f;
+	margin: 20px auto;
+	border: 3px solid #001f3f;
+	width: 250px;
+	height:100px;
+	border-radius: 8px;
+	text-align: center;
+	padding-top: 25px;
+	margin-bottom: 60px;
+	 
+	
+}
+
+.players {
+	
+	padding-bottom: 25px;
+	display: flex;
+	justify-content: space-around; 
+	
+	
+}
+
+
+.choices {
+
+   display: flex;	
+   justify-content: center;
+   
+	
+}	
+
+.decision {
+	
+	display: flex;	
+    justify-content: center;
+	cursor:pointer;	
+	
+	
+}
+ .winner {
+	
+	font-size: 30px;
+	text-align:center;	
+	color: white; 
+
+ }
+  
+.hands {
+	text-align:center;
+
+	
+}	
+
+
+div.fadeOut {
+	
+	opacity:0;
+	pointer-events:none;
+	
+	
+}
+
+div.fadeIn {
+	
+	opacity:1;
+	pointer-events:all;
+	
+}
+
+img.player-hand {
+	display:inline-block;
+	width:6%;
+	height: auto;
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+
+img.CPU-hand {
+	display:inline-block;
+	width:6%;
+	height: auto;
+	margin-left: auto;
+    margin-right: auto;
+	transform:rotateY(180deg);
+}
+.r:hover{
+
+ transform: scale(1.2);	
+ 	
+	
+	
+}
+
+.p:hover{
+
+ transform: scale(1.2);	
+	
+	
+	
+}
+
+.s:hover{
+
+ transform: scale(1.2);	
+	
+	
+	
+}
+img.r {
+	width:20%;
+	height: auto;
+	
+}
+
+img.p {
+	width:20%;
+	height: auto;
+}
+
+img.s {
+	width:20%;
+	height: auto;
+}
+
+
+
+img.howtoplay{
+/*  this is how to center an image */	
+  margin: 80px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	
+}
+
+p{
+	text-align: center;
+
+}
+
+footer {
+  
+  text-align: center;
+  padding: 5px;
+  background-color: #4DA8DA ;
+  color: black;
+	
+	
+}
+
+.copyright-text
+{
+   	
+   margin:0;
+ 
+}
+
+a {
+	color: #001f3f; 
+	text-decoration: none; 
+}
+
+a:visited { 
+ text-decoration: none; 
+ color: #001f3f ; 
+}
